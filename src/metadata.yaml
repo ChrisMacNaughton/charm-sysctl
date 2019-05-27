@@ -7,11 +7,8 @@ description: |
 tags:
   - system
 series:
+  - disco
+  - cosmic
   - bionic
   - xenial
   - trusty
-subordinate: true
-requires:
-  juju-info:
-    interface: juju-info
-    scope: container
